@@ -564,7 +564,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  background: color-mix(in srgb, var(--background-color), transparent 25%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -928,6 +928,7 @@ section,
   display: inline-block;
   background-color: var(--accent-color);
   color: white;
+  margin-top: 15px;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-decoration: none;
