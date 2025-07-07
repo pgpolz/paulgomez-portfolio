@@ -226,4 +226,18 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  /**
+   * Dynamic age calculation
+   */
+  const birthDate = new Date('1995-07-08');
+  const today = new Date();
+  let age = today.getFullYear() - birthDate.getFullYear();
+
+  const m = today.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+    age--;
+  }
+
+  document.getElementById("age").textContent = age;
+
 })();
