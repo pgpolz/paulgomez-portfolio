@@ -727,9 +727,8 @@ section,
 --------------------------------------------------------------*/
 .resume .resume-title {
   color: var(--heading-color);
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 700;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
